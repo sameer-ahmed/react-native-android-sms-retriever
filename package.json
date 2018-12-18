@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-sms-retrieve",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React Native Android SMS Retriever",
   "main": "lib/index.js",
   "scripts": {
