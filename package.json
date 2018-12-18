@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-sms-retrieve",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native Android SMS Retriever",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "react-native-android-sms-retrieve"
+    "url": "git+https://github.com/sameer-ahmed/react-native-android-sms-retrieve"
+  },
+  "bugs": {
+    "url": "https://github.com/sameer-ahmed/react-native-android-sms-retrieve/issues"
+  },
+  "homepage": "https://github.com/sameer-ahmed/react-native-android-sms-retrieve#readme",
+  "directories": {
+    "lib": "lib"
   },
   "author": "sameer-ahmed <me@sameerahmed.in>",
   "license": "MIT",
