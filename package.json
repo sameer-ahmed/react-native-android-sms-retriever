@@ -1,0 +1,44 @@
+{
+  "name": "react-native-android-sms-retriever",
+  "version": "0.0.1",
+  "description": "React Native Android SMS Retriever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node_modules/babel-cli/bin/babel.js --presets es2015 --plugins transform-async-to-generator -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "react-native",
+    "sms-retriever",
+    "otp",
+    "sms",
+    "retiever",
+    "android",
+    "react",
+    "native"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "react-native-android-sms-retriever"
+  },
+  "author": "sameer-ahmed <me@sameerahmed.in>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "rnpm": {
+    "haste": {
+      "providesModuleNodeModules": ["react-native-android-sms-retriever"],
+      "platforms": ["android"]
+    }
+  }
+}
