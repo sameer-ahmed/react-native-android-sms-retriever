@@ -57,7 +57,7 @@ componentWillUnmount() {
 }
 ```
 
-## Other mrthods
+## Other methods
 
 1. This will return best possible numeric OTP from, Note: ideal length consider for the otp is 6 and first match will be returned
 ```javascript
