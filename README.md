@@ -40,7 +40,7 @@ import RNAndroidSmsRetriever from 'react-native-android-sms-retrieve';
 componentWillMount() {
 	...
 
-	RNAndroidSmsRetriever.startSmsRetriever(successCallback,failureCallback)
+	RNAndroidSmsRetriever.startSmsRetriever(successCallback,  failureCallback)
 
 	DeviceEventEmitter.addListener('smsRetrievedSuccess', function (event) { console.log(event) })
     DeviceEventEmitter.addListener('smsRetrievedTimeout', function (event) { console.log(event) })
