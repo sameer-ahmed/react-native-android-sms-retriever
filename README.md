@@ -1,13 +1,13 @@
 
-# react-native-android-sms-retrieve
+# react-native-android-sms-retriever
 
 ## Getting started
 
-`$ npm install react-native-android-sms-retrieve --save`
+`$ npm install react-native-android-sms-retriever --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-android-sms-retrieve`
+`$ react-native link react-native-android-sms-retriever`
 
 ### Manual installation
 
@@ -18,12 +18,12 @@
   - Add `new RNAndroidSmsRetrieverPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-android-sms-retrieve'
-  	project(':react-native-android-sms-retrieve').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-android-sms-retrieve/android')
+  	include ':react-native-android-sms-retriever'
+  	project(':react-native-android-sms-retriever').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-android-sms-retriever/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-android-sms-retrieve')
+      compile project(':react-native-android-sms-retriever')
   	```
 ## Usage
 1. This will return whole SMS as string
@@ -33,7 +33,7 @@
 
 ```javascript
 import { DeviceEventEmitter } from 'react-native'
-import RNAndroidSmsRetriever from 'react-native-android-sms-retrieve';
+import RNAndroidSmsRetriever from 'react-native-android-sms-retriever';
 
 
 
