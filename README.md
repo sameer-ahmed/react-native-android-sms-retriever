@@ -33,14 +33,14 @@
 
 ```javascript
 import { DeviceEventEmitter } from 'react-native'
-import RNAndroidSmsRetriever from 'react-native-android-sms-retriever';
+import { startSmsRetriever } from 'react-native-android-sms-retriever';
 
 
 
 componentWillMount() {
 	...
 
-	RNAndroidSmsRetriever.startSmsRetriever(successCallback,  failureCallback)
+	startSmsRetriever(successCallback,  failureCallback)
 
 	DeviceEventEmitter.addListener('smsRetrievedSuccess', function (event) { console.log(event) })
     	DeviceEventEmitter.addListener('smsRetrievedTimeout', function (event) { console.log(event) })
@@ -61,17 +61,17 @@ componentWillUnmount() {
 
 1. This will return best possible numeric OTP from, Note: ideal length consider for the otp is 6 and first match will be returned
 ```javascript
-RNAndroidSmsRetriever.startSmsRetrieverForOtp(successCallback,failureCallback)
+startSmsRetrieverForOtp(successCallback,failureCallback)
 ```
 
-2. This will return first numeric otp matched with given lenght
+2. This will return first numeric otp matched with given length
 ```javascript
-RNAndroidSmsRetriever.startSmsRetrieverForOtpLength(otpLength, successCallback, failureCallback)
+startSmsRetrieverForOtpLength(otpLength, successCallback, failureCallback)
 ```
 
 2. This will return regex match
 ```javascript
-RNAndroidSmsRetriever.startSmsRetrieverForRegex(regex, successCallback, failureCallback)
+startSmsRetrieverForRegex(regex, successCallback, failureCallback)
 ```
 
   
