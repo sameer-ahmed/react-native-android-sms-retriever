@@ -3,6 +3,8 @@ import { NativeModules } from 'react-native';
 
 const { RNAndroidSmsRetriever } = NativeModules;
 
+export default RNAndroidSmsRetriever
+
 export const startSmsRetriever = (successCallback, failureCallback) => RNAndroidSmsRetriever.startSmsRetriever(successCallback, failureCallback)
 
 export const startSmsRetrieverForOtp = (successCallback, failureCallback) => RNAndroidSmsRetriever.startSmsRetrieverForOtp(successCallback, failureCallback)
