@@ -107,4 +107,4 @@ tests/android/app/.classpath
 **/*.xcworkspace/**
 tests/functions/firebase-debug.log
 
-lib/*
+
